@@ -1,0 +1,247 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: black;
+	background-image: url('images/earth.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height: auto;
+}
+
+form {
+	width: 500px;
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	color: yellow;
+}
+
+h4 {
+	text-align: center;
+	color: yellow;
+	font-size: 2vw;
+}
+
+input[type="text"] {
+	display: inline-block;
+	width: 125px;
+}
+
+label {
+	display: inline-block;
+	width: 125px;
+	color: yellow;
+}
+
+table {
+	font-family: arial, sans-serif;
+	background-color: white;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+	height: auto;
+}
+
+table tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+td {
+	color: black;
+	font-weight: bold;
+}
+
+th {
+	font-family: arial, sans-serif;
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+}
+
+tr {
+	
+}
+
+.active {
+	background-color: #8181F7;
+}
+
+.display {
+	font-family: arial, sans-serif;
+	background-color: white;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
+}
+
+.endangered {
+	cursor: pointer;
+}
+
+.facts {
+	color: yellow;	
+}
+
+.foot {
+	float: right;
+	padding-top: 3.5px;
+	padding-right: 20px;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.img {
+	color: yellow;
+}
+
+.image1, .image2, .image3 {
+	position: absolute;	
+	left: 10px;
+}
+
+.image4, .image5, .image6 {
+	position: absolute;	
+	right: 10px;
+	float: right;
+}
+
+.image1, .image4 {
+	top: 70px;
+}
+
+.image2, .image5 {
+	top: 300px;
+}
+
+.image3, .image6 {
+	top: 530px;
+}
+
+.info {
+	color: #7FFF00;
+	font-weight: bold;
+	font-size: 20px;
+	width: 300px;
+	padding: 1px;
+	margin: 1px;
+	font-size: 1.3vw;
+}
+
+.info2 {
+	position: absolute;
+	top: 50px;
+	right: 10px;
+	float: right;
+	color: #7FFF00;
+	font-weight: bold;
+	font-size: 20px;
+	width: 300px;
+	margin: 1px;
+	font-size: 1.3vw;	
+}
+
+.learn {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+}
+
+.msg {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	color: yellow;
+}
+
+.msg1 {
+	float: left;
+	width: 300px;
+	margin: 500px 10px;
+}
+
+.name {
+	float: left;
+	padding-top: 3.5px;
+	padding-left: 20px;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav li {
+	float: left;
+	font-size: 20px;
+}
+
+.nav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.paging-nav {
+	text-align: right;
+	padding-top: 2px;
+} 
+
+.paging-nav a {
+	margin: auto 1px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1px 7px;
+	background: #91b9e6;
+	color: white;
+	border-radius: 3px;
+} 
+
+.paging-nav .selected-page {
+	background: #187ed5;
+	font-weight: bold;
+}
+
+.upload {
+	float: left;
+	width: 300px;
+	margin: 50px 10px;
+	
+}
+
+#footer {
+   position: fixed;
+   bottom: 0;
+   width:100%;
+   height:30px;   /* Height of the footer */
+   background:#6cf;
+}
+
+#myButton {
+	background-color: yellow;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 0%;
+	margin-bottom: 0%";	
+}
